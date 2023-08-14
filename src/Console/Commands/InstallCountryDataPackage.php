@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\LaravelCountryStateCityData\Console\Commands;
+namespace LaravelMasterPackage\CountryStateCity\Console\Commands;
 
 use Database\Seeders\CountryStateCityTableSeeder;
 use Illuminate\Console\Command;
@@ -58,7 +58,7 @@ class InstallCountryDataPackage extends Command
     private function publishConfiguration($forcePublish = false)
     {
         $params = [
-            '--provider' => "DipeshSukhia\LaravelCountryStateCityData\LaravelCountryStateCityDataServiceProvider",
+            '--provider' => "LaravelMasterPackage\CountryStateCity\LaravelCountryStateCityDataServiceProvider",
             '--tag' => "LaravelCountryStateCityData"
         ];
         if ($forcePublish === true) {

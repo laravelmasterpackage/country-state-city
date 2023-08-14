@@ -1,8 +1,8 @@
 <?php
 
-namespace DipeshSukhia\LaravelCountryStateCityData;
+namespace LaravelMasterPackage\CountryStateCity;
 
-use DipeshSukhia\LaravelCountryStateCityData\Console\Commands\InstallCountryDataPackage;
+use LaravelMasterPackage\CountryStateCity\Console\Commands\InstallCountryDataPackage;
 use Illuminate\Support\ServiceProvider;
 
 class LaravelCountryStateCityDataServiceProvider extends ServiceProvider

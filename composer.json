@@ -1,9 +1,9 @@
 {
-    "name": "dipeshsukhia/laravel-country-state-city-data",
+    "name": "laravelmasterpackage/country-state-city",
     "description": "Country State City Data Provider",
     "keywords": [
         "dipeshsukhia",
-        "laravel-country-state-city-data",
+        "country-state-city",
         "countries",
         "country",
         "laravel",
@@ -12,7 +12,7 @@
         "city",
         "cities"
     ],
-    "homepage": "https://github.com/dipeshsukhia/laravel-country-state-city-data",
+    "homepage": "https://github.com/laravelmasterpackage/country-state-city",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -37,12 +37,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DipeshSukhia\\LaravelCountryStateCityData\\": "src"
+            "LaravelMasterPackage\\CountryStateCity\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DipeshSukhia\\LaravelCountryStateCityData\\Tests\\": "tests"
+            "LaravelMasterPackage\\CountryStateCity\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -56,10 +56,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DipeshSukhia\\LaravelCountryStateCityData\\LaravelCountryStateCityDataServiceProvider"
+                "LaravelMasterPackage\\CountryStateCity\\LaravelCountryStateCityDataServiceProvider"
             ],
             "aliases": {
-                "LaravelCountryStateCityData": "DipeshSukhia\\LaravelCountryStateCityData\\LaravelCountryStateCityDataFacade"
+                "LaravelCountryStateCityData": "LaravelMasterPackage\\CountryStateCity\\LaravelCountryStateCityDataFacade"
             }
         }
     }

@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\LaravelCountryStateCityData;
+namespace LaravelMasterPackage\CountryStateCity;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -13,6 +13,6 @@ class LaravelCountryStateCityDataFacade extends Facade
      */
     protected static function getFacadeAccessor(): string
     {
-        return 'laravel-country-state-city-data';
+        return 'country-state-city';
     }
 }

@@ -1,6 +1,6 @@
 <?php
 
-namespace DipeshSukhia\LaravelCountryStateCityData;
+namespace LaravelMasterPackage\CountryStateCity;
 
 class LaravelCountryStateCityData
 {
