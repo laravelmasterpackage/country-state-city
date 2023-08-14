@@ -10,7 +10,7 @@ World`s Country State City Provider for Laravel
 You can install the package via composer:
 
 ```bash
-composer require dipeshsukhia/laravel-country-state-city-data --dev
+composer require laravelmasterpackage/country-state-city 
 ```
 
 ## Usage
